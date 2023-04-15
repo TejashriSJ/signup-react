@@ -1,0 +1,67 @@
+body {
+  font-family: "EB Garamond", serif;
+  display: flex;
+  justify-content: center;
+  color: white;
+  box-sizing: border-box;
+}
+#root {
+  padding: 1rem;
+}
+form {
+  background-color: rgb(34, 167, 167);
+  width: 25rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  font-weight: 500;
+}
+form input {
+  margin: 0.5rem;
+  border: 1px solid white;
+  padding: 0rem;
+  margin: 0.1rem;
+  margin-left: 0.3rem;
+}
+input :active,
+input:hover,
+input:focus {
+  outline: none;
+  border-bottom: 1px solid rgb(23, 131, 131);
+}
+select:focus {
+  outline: none;
+}
+.input-field {
+  background-color: white;
+  margin: 0.5rem;
+  padding: 0rem;
+  width: 80%;
+}
+p {
+  color: black;
+  font-weight: 600;
+}
+label {
+  color: black;
+  font-weight: 500;
+}
+.btn {
+  background-color: rgb(26, 110, 110);
+  border: 1px solid rgb(35, 128, 128);
+  cursor: pointer;
+  width: 80%;
+}
+.btn:hover {
+  background: transparent;
+  border: 1px solid rgb(35, 128, 128);
+}
+.age {
+  width: 17.8rem;
+}
+.error {
+  color: red;
+  font-size: smaller;
+  margin: 0rem;
+  align-self: flex-start;
+  margin-left: 2.5rem;
+}
