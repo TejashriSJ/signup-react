@@ -65,3 +65,13 @@ label {
   align-self: flex-start;
   margin-left: 2.5rem;
 }
+.afterSubmit {
+  pointer-events: none;
+  opacity: 0.5;
+}
+.successBlock {
+  max-width: 25rem;
+  min-width: 25rem;
+  position: absolute;
+  top: 20rem;
+}
